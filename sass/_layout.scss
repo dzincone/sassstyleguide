@@ -1,0 +1,77 @@
+.header {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 5vh;
+  border-bottom: 1px solid $purple;
+}
+
+.title {
+  width: 40%;
+  text-align: right;
+  display: inline-block;
+}
+
+.nav {
+  width: 40%;
+  padding-left: 40px;
+  display: inline-block;
+  vertical-align: bottom;
+  text-align: left;
+  height: auto;
+}
+
+.main {
+  width: 70%;
+  margin: 0 auto;
+}
+
+
+
+.col-1 {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.col-2 {
+  width: 100%;
+  border: 1px solid $purple;
+  height: auto;
+  padding: 20px;
+}
+
+.col-3 h3, .col-3 h2, .col-3 h4{
+  width: 30%;
+  text-align: center;
+  color: $white;
+  padding: 10px;
+  border: 2px solid $green;
+
+}
+
+.col-3 {
+  padding-top: 10px;
+  color: $white;}
+
+.col-4 {
+  margin-top: 20px;
+  width: 50%;
+  color: $green;
+  display: inline-block;
+}
+
+.full {
+  width: 100%;
+  background-color: $purple;
+  height: auto;
+  margin-top: 40px;
+  padding-bottom: 20px;
+}
+
+.footer {
+  width: 100%;
+  background-color: $purple;
+  height: auto;
+  margin-top: 40px;
+  padding-bottom: 20px;
+}

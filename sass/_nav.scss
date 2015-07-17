@@ -1,0 +1,21 @@
+a {
+  border: 1px solid $purple;
+  border-bottom: none;
+  padding: 10px;
+  background: $white;
+  outline: none;
+  text-decoration: none;
+  margin-right: 10px;
+  color: $green;
+}
+
+a:hover {
+  background-color: $purple;
+  color: $white;
+}
+
+a:focus {
+  background-color: $green;
+  color: $white;
+  border-color: $green;
+}

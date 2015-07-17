@@ -1,0 +1,237 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:400,600);
+@import url(http://fonts.googleapis.com/css?family=Martel+Sans:200,600);
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html {
+  font-size: 1em; }
+
+body {
+  background-color: #FFFFFF;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #100B00; }
+
+h1, h2, h3 {
+  margin: 1.414em 0 0.5em;
+  font-weight: 200;
+  line-height: 1.2;
+  font-family: 'Martel Sans', sans-serif;
+  color: #85CB33; }
+
+h1 {
+  margin-top: 0;
+  font-size: 4.5em; }
+
+h2 {
+  margin-top: 0;
+  font-size: 3.2em; }
+
+h3 {
+  font-size: 1.777em; }
+
+h4 {
+  font-size: 1.333em; }
+
+h4, h5, h6 {
+  font-family: 'Martel Sans', sans-serif;
+  font-weight: 600;
+  color: #85CB33; }
+
+small, .font_small {
+  font-size: 0.75em; }
+
+ul {
+  list-style: circle;
+  color: #235789;
+  margin-bottom: 20px; }
+
+ol {
+  list-style-type: lower-alpha;
+  margin-bottom: 20px;
+  color: #235789; }
+
+table {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 20px; }
+  table thead {
+    color: #235789; }
+    table thead th {
+      padding-right: 20%; }
+  table tr {
+    width: 100%; }
+  table td {
+    padding-right: 20%; }
+  table tbody tr:nth-of-type(odd) {
+    background-color: rgba(133, 203, 51, 0.2); }
+
+input[type="text"] {
+  height: auto;
+  width: 90%;
+  outline: none;
+  height: 20px;
+  border: 1px solid #85CB33;
+  transition: width 0.5s; }
+
+input[type="text"]:hover {
+  box-shadow: 3px 3px 2px #85CB33;
+  width: 100%; }
+
+input[type="submit"] {
+  border: 1px solid #820587;
+  padding: 10px;
+  background: #FFFFFF;
+  outline: none; }
+
+input[type="submit"]:hover {
+  background-color: #820587;
+  color: #FFFFFF; }
+
+input[type="submit"]:focus {
+  background-color: #85CB33;
+  color: #FFFFFF;
+  border-color: #85CB33; }
+
+label {
+  color: #85CB33;
+  padding-right: 10px; }
+
+.label {
+  text-align: left; }
+
+.form-input {
+  width: 30%; }
+
+.form {
+  width: 100%;
+  padding-bottom: 20px; }
+
+a {
+  border: 1px solid #820587;
+  border-bottom: none;
+  padding: 10px;
+  background: #FFFFFF;
+  outline: none;
+  text-decoration: none;
+  margin-right: 10px;
+  color: #85CB33; }
+
+a:hover {
+  background-color: #820587;
+  color: #FFFFFF; }
+
+a:focus {
+  background-color: #85CB33;
+  color: #FFFFFF;
+  border-color: #85CB33; }
+
+.header {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 5vh;
+  border-bottom: 1px solid #820587; }
+
+.title {
+  width: 40%;
+  text-align: right;
+  display: inline-block; }
+
+.nav {
+  width: 40%;
+  padding-left: 40px;
+  display: inline-block;
+  vertical-align: bottom;
+  text-align: left;
+  height: auto; }
+
+.main {
+  width: 70%;
+  margin: 0 auto; }
+
+.col-1 {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 50px; }
+
+.col-2 {
+  width: 100%;
+  border: 1px solid #820587;
+  height: auto;
+  padding: 20px; }
+
+.col-3 h3, .col-3 h2, .col-3 h4 {
+  width: 30%;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 10px;
+  border: 2px solid #85CB33; }
+
+.col-3 {
+  padding-top: 10px;
+  color: #FFFFFF; }
+
+.col-4 {
+  margin-top: 20px;
+  width: 50%;
+  color: #85CB33;
+  display: inline-block; }
+
+.full {
+  width: 100%;
+  background-color: #820587;
+  height: auto;
+  margin-top: 40px;
+  padding-bottom: 20px; }
+
+.footer {
+  width: 100%;
+  background-color: #820587;
+  height: auto;
+  margin-top: 40px;
+  padding-bottom: 20px; }

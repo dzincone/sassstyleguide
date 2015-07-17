@@ -1,0 +1,50 @@
+input[type="text"] {
+  height: auto;
+  width: 90%;
+  outline: none;
+  height: 20px;
+  border: 1px solid $green;
+  transition: width .5s;
+}
+
+input[type="text"]:hover {
+  box-shadow: 3px 3px 2px $green;
+  width: 100%;
+}
+
+input[type="submit"] {
+  border: 1px solid $purple;
+  padding: 10px;
+  background: $white;
+  outline: none;
+}
+
+input[type="submit"]:hover {
+  background-color: $purple;
+  color: $white;
+}
+
+input[type="submit"]:focus {
+  background-color: $green;
+  color: $white;
+  border-color: $green;
+}
+
+
+label {
+  color: $green;
+  padding-right: 10px;
+}
+
+.label {
+  text-align: left;
+}
+
+.form-input {
+  width: 30%;
+}
+
+.form {
+  width: 100%;
+  padding-bottom: 20px;
+}

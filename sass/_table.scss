@@ -1,0 +1,27 @@
+table {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 20px;
+  thead {
+    color: $darkblue;
+    th {
+      padding-right: 20%;
+    }
+  }
+  tr{
+    width: 100%;
+  }
+  td {
+    padding-right: 20%;
+  }
+  tbody tr:nth-of-type(odd) {
+    background-color: rgba($green, 0.2);
+  }
+
+
+
+
+
+
+
+}
