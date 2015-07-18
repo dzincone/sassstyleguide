@@ -41,6 +41,21 @@ block content
             input(type="text")
       p
       input(type="submit", value="Join Us!")
+      dl.tabs(data-tab='')
+      dd.active
+        a(href='#htab-panel1') Tab 1
+      dd
+        a(href='#htab-panel2') Tab 2
+      dd
+        a(href='#htab-panel3') Tab 3
+      dd
+    .tabs-content
+      #htab-panel1.content.active
+        p First panel content goes here...
+      #htab-panel2.content
+        p Second panel content goes here...
+      #htab-panel3.content
+        p Third panel content goes here...
             
   .footer
     .col-4
